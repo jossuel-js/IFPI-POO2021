@@ -1,0 +1,12 @@
+a) Crie um laço usando for para imprimir esses valores; 
+enum Estados {PI,CE,MA}
+for(var i=0;i<3;i++){
+console.log(Estados[i])
+}
+
+b) Crie um laço que imprima os índices dessa enum e diga o que aconteceu.
+ enum Estados {PI,CE,MA}
+
+for(var i=0;i<3;i++){
+console.log(i)
+}
