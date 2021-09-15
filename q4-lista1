@@ -1,0 +1,45 @@
+a) Crie uma enum chamada DiasSemana com os valores representando os dias  da semana segunda a domingo; 
+enum DiasSemana {Segunda,Terça,Quarta,Quinta,Sexta,Sabado,Domingo}
+
+for(var i=0;i<7;i++){
+console.log(DiasSemana[i])
+}
+Crie um namespace com mesmo nome e dentro dele crie uma função chamada  isDiaUtil recebe um parâmetro do tipo DiasSema e retorna false se for um  sábado ou domingo e retorna true caso contrário;
+function isDiaUtil(DiasSemana : String){
+
+if(DiasSemana == "Sabado"){
+return false
+}
+else if(DiasSemana == "Domingo"){
+return false
+}
+else if(DiasSemana!= "Sabado"){
+return true
+}
+else if(DiasSemana!= "Domingo"){
+return true
+}
+}
+console.log(isDiaUtil("Sabado"))
+
+c) Escreva também um script que declara uma variável do tipo da enum e que  testa a função DiasSemana.isDiaUtil(). 
+function isDiaUtil(DiasSemana : String){
+
+if(DiasSemana == "Sabado"){
+return false
+}
+else if(DiasSemana == "Domingo"){
+return false
+}
+else if(DiasSemana!= "Sabado"){
+return true
+}
+else if(DiasSemana!= "Domingo"){
+return true
+}
+}
+enum dias {Segunda,Terça,Quarta,Quinta,Sexta,Sabado,Domingo}
+for(var i = 0 ;i < 7;i++){
+console.log(isDiaUtil(dias[i]))
+}
+
