@@ -1,0 +1,5 @@
+a) console.log(soma(1, 2));     Retorna o numero 3 
+
+b) console.log(soma(1, "2"));   Retorna "12" 
+
+c) console.log(soma(1));         Retorna NAN(not a number)
