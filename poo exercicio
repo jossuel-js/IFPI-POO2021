@@ -1,0 +1,25 @@
+1)A classe é um modelo, um planejamento, tal como a maquete de uma casa. 
+O objeto seria a classe materializada, ou seja, um objeto com os devidos atributos qualificados
+
+
+2)Atributos são as propriedades de um objeto. Métodos são as ações que um objeto pode realizar. 
+Os objetos são características definidas pelas classes.
+                                 Sistema importante                                    Sistema que nao e importante
+3)Peso                                 Fisica                                              hidreletricas
+   Tipo de CNH                          Detran                                             corpo humano                                            
+   Tipo Sanguineo                      Hemopi                                              carros
+   Habilidade destra                   sistemas motores do corpo                           escola
+   Percentual de Gordura                IMC                                                industrias  
+    Saldo em conta                      Banco                                              familia   
+   Etinia                               IBGE                                       cafeteria                                       
+
+4)a)sim pois assim cada conta teria um controle mais especifico de cada conta do banco
+   b)Não.assim teria que ser criado um sistema mto diversificado para conseguir agregar ambas as contas do cliente .
+O elemento usado seria os Tipos Abstratos de Dados.
+
+
+5)Diretor,Professores,Aluno,Zeladores,Cordenadores
+
+6)Personagem principal (atributo = cor,classe,adereços   | | metodos correr,lutar,investigar,conversar=),
+npcs(  artributo=raça,loja,vestimenta    ||metodo=guiar,vender,conversar        ) ,
+vilões(atributo=maldade, | |metodo=conversar,lutar,atrapalhar)
